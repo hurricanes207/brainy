@@ -113,6 +113,8 @@ h6 {
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%;
+  text-align: center;
+  color: black;
 }
 
 .intro-message > h1 {
