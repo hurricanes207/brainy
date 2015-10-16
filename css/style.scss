@@ -30,30 +30,27 @@ body {
 .lead {
     font-size: 25px;
     text-align: center;
-}
-
-.lead img{
+    img{
     width: 75%;
     padding: 5px;
+    }
 }
 
 .col-md-12{
     text-align: center;
-}
 
-.col-md-12 img{
+    img{
     width: 25%;
-}
-
-.col-md-12 li{
+    }
+    li{
     list-style: none;
     text-decoration: none;
     padding-right: 40px;
-}
-
-.col-md-12 h1{
+    }
+    h1{
     text-align: center;
     padding-bottom: 25px;
+    }
 }
 
 .col-md-3 {
@@ -78,15 +75,12 @@ body {
 .caption {
     height: 130px;
     overflow: hidden;
-}
 
-.caption h4 {
+    h4 {
     white-space: nowrap;
+    }
 }
 
-.thumbnail img {
-    width: 100%;
-}
 
 .ratings {
     padding-right: 10px;
@@ -96,13 +90,15 @@ body {
 
 .thumbnail {
     padding: 0;
-}
 
-.thumbnail .caption-full {
+    img {
+    width: 100%;
+    }
+    .caption-full {
     padding: 9px;
     color: #333;
+    }
 }
-
 
 // Footer
 footer {
@@ -146,11 +142,6 @@ h6 {
     font-size: 14px; 
 }
 
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
-
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -176,29 +167,24 @@ h6 {
     position:relative;
     padding-top: 20%;
     padding-bottom: 20%;
-    
     text-align:center;
     color: black;
-}
 
-.intro-message h3{
+    h3{
     color:#6460ab;
-}
-
-.intro-message > h1 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    }
+    h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    }
 }
 
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 @media(max-width:767px) {
@@ -248,16 +234,15 @@ h6 {
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
-}
 
-.banner h2 {
+    h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
-}
-
-.banner ul {
+    } 
+    ul {
     margin-bottom: 0;
+    }
 }
 
 .banner-social-buttons {
