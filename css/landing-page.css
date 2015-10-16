@@ -1,77 +1,8 @@
-body {
-    padding-top: 20px;  
-}
-
-// Navigation
-.nav img {
-    width: 15%;
-}
-
-
-// Carousel
-.slide-image {
-    width: 100%;
-}
-
-.carousel-holder {
-    margin-left: 150px;
-    margin-bottom: 30px;
-}
-
-.carousel-control,
-.item {
-    border-radius: 4px;
-}
-
-
-//Logo
-.lead {
-    font-size: 25px;
-    text-align: center;
-}
-
-.lead img{
-    width: 75%;
-    padding: 5px;
-}
-
-
-// Selections
-.caption {
-    height: 130px;
-    overflow: hidden;
-}
-
-.caption h4 {
-    white-space: nowrap;
-}
-
-.thumbnail img {
-    width: 100%;
-}
-
-.ratings {
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #d17581;
-}
-
-.thumbnail {
-    padding: 0;
-}
-
-.thumbnail .caption-full {
-    padding: 9px;
-    color: #333;
-}
-
-
-// Footer
-footer {
-    margin: 30px 0;
-}
-
-/* Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com) */
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
 
 body,
 html {
@@ -103,16 +34,9 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: black;
-    background: url(../images/facade.png) no-repeat center center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
-}
-
-.btn {
-
-    background-color: blue;
-    color: white;
-
 }
 
 .intro-message {
@@ -168,6 +92,16 @@ h6 {
     letter-spacing: 2px;
 }
 
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
 
 .section-heading {
     margin-bottom: 30px;
@@ -224,4 +158,13 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
 }
