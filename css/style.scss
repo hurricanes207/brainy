@@ -41,8 +41,36 @@ body {
     text-align: center;
 }
 
+.col-md-12 img{
+    width: 25%;
+}
+
+.col-md-12 li{
+    list-style: none;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.col-md-12 h1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
 .col-md-3 {
     text-align: center;
+}
+
+.container li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.form-horizontal{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 100px;
 }
 
 
