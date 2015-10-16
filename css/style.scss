@@ -1,3 +1,5 @@
+//STORE PAGE MAIN CSS
+
 body {
     padding-top: 20px;  
 }
@@ -33,6 +35,14 @@ body {
 .lead img{
     width: 75%;
     padding: 5px;
+}
+
+.col-md-12{
+    text-align: center;
+}
+
+.col-md-3 {
+    text-align: center;
 }
 
 
@@ -71,7 +81,21 @@ footer {
     margin: 30px 0;
 }
 
-/* Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com) */
+
+//CONTACT PAGE MAIN CSS
+
+.tophead{
+    padding-top: 50px;
+}
+
+.contactHead{
+    margin-top: 66px;
+}
+
+
+
+
+//LANDING PAGE & ABOUT PAGE MAIN CSS
 
 body,
 html {
@@ -127,6 +151,10 @@ h6 {
     
     text-align:center;
     color: black;
+}
+
+.intro-message h3{
+    color:#6460ab;
 }
 
 .intro-message > h1 {

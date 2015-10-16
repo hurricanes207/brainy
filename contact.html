@@ -1,0 +1,156 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Contact</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+      <header>
+        <!-- Navigation-->
+        <div class="container">
+            <div class="row">    
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                        <!-- Mobile Nav Button-->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><img alt="Brand" src="images/zany_brainy_logo_bw.png"></li>
+                                <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                                <li class="dropdown">
+                                <a href="store.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Blocks and Building</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Counting Numbers</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Shapes and Time</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul> <!--end Navigation-->
+                            <form class="navbar-form navbar-right" role="search">
+                                <button type="submit" class="btn btn-default">My Cart </button>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <button type="submit" class="btn btn-default">Log In</button>
+                            </form>
+                        </div><!-- end .navbar-collapse -->
+                    </div><!-- end .container-fluid -->
+                </nav> <!-- end Navigation-->
+            </div>  <!-- end row -->
+        </div>   <!-- end container --> 
+      </header>
+   
+    
+<section class="contactHead">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="lead">
+                    <img src="images/zany_brainy_logo.png" alt="Logo Color">
+                </h3>
+                <h4>~Educational Toys for Exeptional Children~</h4>
+            </div>
+            </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+            <form class="form-horizontal" role="form" method="post" action="contact.php"> 
+                <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="name" id="name" placeholder="First & Last Name" value="<?php echo                     htmlspecialchars($_POST['name']); ?>"> 
+            </div>
+            </div>
+                
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" name="email" id="inputEmail3" placeholder="Email" value="<?php echo                     htmlspecialchars($_POST['email']); ?>"> 
+            </div>
+            </div>
+                
+            <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" name="message" id="message" placeholder="Enter Message" rows="4" value="<?php echo                     htmlspecialchars($_POST['message']); ?>"></textarea> 
+            </div>
+            </div>  
+                
+            <div class="form-group">
+                <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="human" id="human" placeholder="enter your answer" value="<?php echo                     htmlspecialchars($_POST['human']); ?>"> 
+            </div>
+            </div>    
+                
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" name="submit" class="btn btn-default">Send</button>
+                </div>
+            </div>
+                
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <!--this area will be used to display an alert to the user-->
+                    
+                </div>    
+            </div>    
+                
+            </form>
+            </div>    
+        </div>
+    </div>
+</section>
+      
+<div class="container">
+        
+<!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Zainy Brainy 2015</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- end .container -->
+
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+  </body>
+</html>
