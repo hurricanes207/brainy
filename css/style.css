@@ -93,14 +93,19 @@ h6 {
   padding-top: 50px;
   /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
+  background: url(../images/zany_brainy_logo2.jpg) no-repeat center center;
+  background-size: contain;
   text-align: center;
-  color: black;
-  background: url(../images/facade.png) no-repeat center center;
-  background-size: cover;
+  color: #6460ab;
 }
 
 .btn {
-  background-color: blue;
+  background-color: #74cee2;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #f36f21;
   color: white;
 }
 
